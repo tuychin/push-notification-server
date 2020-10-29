@@ -1,0 +1,24 @@
+{
+  "name": "push-notification-server",
+  "version": "1.0.0",
+  "description": "Push notification server on Node js",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tuychin/push-notification-server.git"
+  },
+  "author": "tuychin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tuychin/push-notification-server/issues"
+  },
+  "homepage": "https://github.com/tuychin/push-notification-server#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "web-push": "^3.4.4"
+  }
+}
