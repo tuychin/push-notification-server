@@ -42,7 +42,7 @@ app.post('/firebase/notification', (req, res) => {
     
     admin.messaging().sendToDevice(registrationToken, message, options)
         .then(response => {
-            res.status(200).send('[Web push server] Notification sent successfully')
+            res.status(200).send(response)
         })
         .catch(error => {
             console.log(error);
