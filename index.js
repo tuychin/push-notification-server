@@ -23,8 +23,8 @@ const corsOptions = {
     'preflightContinue': false,
 };
 const httpsOptions = {
-    key: fs.readFileSync('./ssl/privatekey.pem'),
-    cert: fs.readFileSync('./ssl/sertificate.pem'),
+    key: fs.readFileSync('privatekey.pem'),
+    cert: fs.readFileSync('sertificate.pem'),
 };
 
 const httpServer = http.createServer();
