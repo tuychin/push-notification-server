@@ -1,4 +1,3 @@
 /node_modules
 /serviceAccountKey.json
-/cert.pem
-/key.pem
+/ssl
