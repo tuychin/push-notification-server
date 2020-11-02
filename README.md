@@ -63,4 +63,4 @@ pm2 logs
 pm2 list
 ```
 
-More: https://pm2.keymetrics.io/docs/usage/pm2-doc-single-page/
+More about pm2: https://pm2.keymetrics.io/docs/usage/pm2-doc-single-page/
